@@ -57,8 +57,8 @@ const DataTable = () => {
 
     if (e.target.checked === true) {
       // const item = todo.filter(x=> x.id === id)
-      console.log("added")
-      console.log(item)
+      // console.log("added")
+      // console.log(item)
 
       for (let index = 0; index < todo.length; index++) {
         if (todo[index].id === item.id) {
